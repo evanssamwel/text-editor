@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_documents",
+  "info": {
+    "singularName": "user-document",
+    "pluralName": "user-documents",
+    "displayName": "UserDocument"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
